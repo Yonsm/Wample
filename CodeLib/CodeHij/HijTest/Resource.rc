@@ -1,0 +1,169 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "Resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "Define.h"
+#include <WinRes.h>
+
+#ifndef APSTUDIO_INVOKED
+#define AFX_RESOURCE_DLL
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "Resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""Define.h""\r\n"
+    "#include <WinRes.h>\r\n"
+    "\r\n"
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#define AFX_RESOURCE_DLL\r\n"
+    "#endif\r\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#include ""Resource\\\\VER.rc2""\r\r\n"
+    "\r\n"
+    "IDS_OK RCDATA\r\n"
+    "BEGIN\r\n"
+    "    -1, 2,\r\n"
+    "    I_IMAGENONE, IDOK, TBSTATE_ENABLED, TBSTYLE_BUTTON| TBSTYLE_AUTOSIZE, IDS_OK, 0, NOMENU\r\n"
+    "    I_IMAGENONE, IDCANCEL, TBSTATE_ENABLED, TBSTYLE_BUTTON | TBSTYLE_AUTOSIZE, IDS_Cancel, 0, NOMENU\r\n"
+    "END\r\n"
+    "\r\n"
+    "IDR_Menu RCDATA\r\n"
+    "BEGIN\r\n"
+    "    IDR_Menu, 2,\r\n"
+    "    I_IMAGENONE, IDOK, TBSTATE_ENABLED, TBSTYLE_BUTTON| TBSTYLE_AUTOSIZE, IDS_Start, 0, NOMENU\r\n"
+    "    I_IMAGENONE, IDCANCEL, TBSTATE_ENABLED, TBSTYLE_DROPDOWN | TBSTYLE_AUTOSIZE, IDS_Menu, 0, 0\r\n"
+    "END\r\r\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_Main                ICON                    "Resource\\Main.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_Main DIALOG  0, 0, 151, 137
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CENTER | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "HijTest"
+FONT 9, "MS Shell Dlg"
+BEGIN
+    EDITTEXT        IDC_Log,0,0,138,125,ES_MULTILINE | ES_AUTOVSCROLL | ES_READONLY | WS_VSCROLL | WS_HSCROLL
+    CONTROL         "",IDC_STATIC,"SIPPREF",NOT WS_VISIBLE,-10,-10,5,5
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_Menu MENU 
+BEGIN
+    POPUP "菜单"
+    BEGIN
+        MENUITEM "清除日志",                        IDM_Clear
+        MENUITEM SEPARATOR
+        MENUITEM "关于",                          IDM_About
+        MENUITEM SEPARATOR
+        MENUITEM "退出",                          IDM_Exit
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_GetFileName         "如果要在 Smartphone 2003 中浏览获取文件名，必须从以下网站中下载 RFileShell 或 tGetFile 函数库:\n\nRFileShell:\nhttp://www.resco.net/downloads/byplatforms.asp\n\ntGetFile:\nhttp://www.tillanosoft.com/ce/tgetfile.html"
+    IDS_Save                "保存"
+    IDS_Open                "打开"
+    IDS_OK                  "确定"
+    IDS_Cancel              "取消"
+    IDS_AppName             "HijTest"
+    IDS_CmdMsg              "%s 命令执行成功。"
+    IDS_CmdErr              "%s 命令执行失败。"
+    IDS_CmdAsk              "确实要执行 %s 命令吗?"
+    IDS_Menu                "菜单"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_Start               "开始"
+    IDS_Stop                "停止"
+    IDS_StartError          "启动 CodeHij 引擎失败。"
+    IDS_StopError           "停止 CodeHij 引擎失败。"
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#include "Resource\\VER.rc2"
+
+IDS_OK RCDATA
+BEGIN
+    -1, 2,
+    I_IMAGENONE, IDOK, TBSTATE_ENABLED, TBSTYLE_BUTTON| TBSTYLE_AUTOSIZE, IDS_OK, 0, NOMENU
+    I_IMAGENONE, IDCANCEL, TBSTATE_ENABLED, TBSTYLE_BUTTON | TBSTYLE_AUTOSIZE, IDS_Cancel, 0, NOMENU
+END
+
+IDR_Menu RCDATA
+BEGIN
+    IDR_Menu, 2,
+    I_IMAGENONE, IDOK, TBSTATE_ENABLED, TBSTYLE_BUTTON| TBSTYLE_AUTOSIZE, IDS_Start, 0, NOMENU
+    I_IMAGENONE, IDCANCEL, TBSTATE_ENABLED, TBSTYLE_DROPDOWN | TBSTYLE_AUTOSIZE, IDS_Menu, 0, 0
+END
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

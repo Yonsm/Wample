@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Wample", "Wample\Wample.vcproj", "{9F0EE5B3-C19B-461B-A91A-EFB9C9CDBF4D}"
+EndProject
+Project("{B900F1C2-3D47-4FEC-85B3-04AAF18C3634}") = "WampleDeploy", "WampleDeploy\WampleDeploy.vddproj", "{2E0A38F4-2C18-401D-BB36-A80460EC334D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|PPC2003 = Debug|PPC2003
+		Debug|PPC50 = Debug|PPC50
+		Debug|SP2003 = Debug|SP2003
+		Debug|SP50 = Debug|SP50
+		Debug|Win32 = Debug|Win32
+		Release|PPC2003 = Release|PPC2003
+		Release|PPC50 = Release|PPC50
+		Release|SP2003 = Release|SP2003
+		Release|SP50 = Release|SP50
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F0EE5B3-C19B-461B-A91A-EFB9C9CDBF4D}.Debug|PPC2003.ActiveCfg = Debug|Pocket PC 2003 (ARMV4)
+		{9F0EE5B3-C19B-461B-A91A-EFB9C9CDBF4D}.Debug|PPC2003.Build.0 = Debug|Pocket PC 2003 (ARMV4)
+		{9F0EE5B3-C19B-461B-A91A-EFB9C9CDBF4D}.Debug|PPC2003.Deploy.0 = Debug|Pocket PC 2003 (ARMV4)
+		{9F0EE5B3-C19B-461B-A91A-EFB9C9CDBF4D}.Debug|PPC50.ActiveCfg = Debug|Windows Mobile 5.0 Pocket PC SDK (ARMV4I)
+		{9F0EE5B3-C19B-461B-A91A-EFB9C9CDBF4D}.Debug|PPC50.Build.0 = Debug|Windows Mobile 5.0 Pocket PC SDK (ARMV4I)
+		{9F0EE5B3-C19B-461B-A91A-EFB9C9CDBF4D}.Debug|PPC50.Deploy.0 = Debug|Windows Mobile 5.0 Pocket PC SDK (ARMV4I)
+		{9F0EE5B3-C19B-461B-A91A-EFB9C9CDBF4D}.Debug|SP2003.ActiveCfg = Debug|Smartphone 2003 (ARMV4)
+		{9F0EE5B3-C19B-461B-A91A-EFB9C9CDBF4D}.Debug|SP2003.Build.0 = Debug|Smartphone 2003 (ARMV4)
+		{9F0EE5B3-C19B-461B-A91A-EFB9C9CDBF4D}.Debug|SP2003.Deploy.0 = Debug|Smartphone 2003 (ARMV4)
+		{9F0EE5B3-C19B-461B-A91A-EFB9C9CDBF4D}.Debug|SP50.ActiveCfg = Debug|Windows Mobile 5.0 Smartphone SDK (ARMV4I)
+		{9F0EE5B3-C19B-461B-A91A-EFB9C9CDBF4D}.Debug|SP50.Build.0 = Debug|Windows Mobile 5.0 Smartphone SDK (ARMV4I)
+		{9F0EE5B3-C19B-461B-A91A-EFB9C9CDBF4D}.Debug|SP50.Deploy.0 = Debug|Windows Mobile 5.0 Smartphone SDK (ARMV4I)
+		{9F0EE5B3-C19B-461B-A91A-EFB9C9CDBF4D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9F0EE5B3-C19B-461B-A91A-EFB9C9CDBF4D}.Debug|Win32.Build.0 = Debug|Win32
+		{9F0EE5B3-C19B-461B-A91A-EFB9C9CDBF4D}.Release|PPC2003.ActiveCfg = Release|Pocket PC 2003 (ARMV4)
+		{9F0EE5B3-C19B-461B-A91A-EFB9C9CDBF4D}.Release|PPC2003.Build.0 = Release|Pocket PC 2003 (ARMV4)
+		{9F0EE5B3-C19B-461B-A91A-EFB9C9CDBF4D}.Release|PPC2003.Deploy.0 = Release|Pocket PC 2003 (ARMV4)
+		{9F0EE5B3-C19B-461B-A91A-EFB9C9CDBF4D}.Release|PPC50.ActiveCfg = Release|Windows Mobile 5.0 Pocket PC SDK (ARMV4I)
+		{9F0EE5B3-C19B-461B-A91A-EFB9C9CDBF4D}.Release|PPC50.Build.0 = Release|Windows Mobile 5.0 Pocket PC SDK (ARMV4I)
+		{9F0EE5B3-C19B-461B-A91A-EFB9C9CDBF4D}.Release|PPC50.Deploy.0 = Release|Windows Mobile 5.0 Pocket PC SDK (ARMV4I)
+		{9F0EE5B3-C19B-461B-A91A-EFB9C9CDBF4D}.Release|SP2003.ActiveCfg = Release|Smartphone 2003 (ARMV4)
+		{9F0EE5B3-C19B-461B-A91A-EFB9C9CDBF4D}.Release|SP2003.Build.0 = Release|Smartphone 2003 (ARMV4)
+		{9F0EE5B3-C19B-461B-A91A-EFB9C9CDBF4D}.Release|SP2003.Deploy.0 = Release|Smartphone 2003 (ARMV4)
+		{9F0EE5B3-C19B-461B-A91A-EFB9C9CDBF4D}.Release|SP50.ActiveCfg = Release|Windows Mobile 5.0 Smartphone SDK (ARMV4I)
+		{9F0EE5B3-C19B-461B-A91A-EFB9C9CDBF4D}.Release|SP50.Build.0 = Release|Windows Mobile 5.0 Smartphone SDK (ARMV4I)
+		{9F0EE5B3-C19B-461B-A91A-EFB9C9CDBF4D}.Release|SP50.Deploy.0 = Release|Windows Mobile 5.0 Smartphone SDK (ARMV4I)
+		{9F0EE5B3-C19B-461B-A91A-EFB9C9CDBF4D}.Release|Win32.ActiveCfg = Release|Win32
+		{9F0EE5B3-C19B-461B-A91A-EFB9C9CDBF4D}.Release|Win32.Build.0 = Release|Win32
+		{2E0A38F4-2C18-401D-BB36-A80460EC334D}.Debug|PPC2003.ActiveCfg = Debug
+		{2E0A38F4-2C18-401D-BB36-A80460EC334D}.Debug|PPC2003.Build.0 = Debug
+		{2E0A38F4-2C18-401D-BB36-A80460EC334D}.Debug|PPC50.ActiveCfg = Debug
+		{2E0A38F4-2C18-401D-BB36-A80460EC334D}.Debug|PPC50.Build.0 = Debug
+		{2E0A38F4-2C18-401D-BB36-A80460EC334D}.Debug|SP2003.ActiveCfg = Debug
+		{2E0A38F4-2C18-401D-BB36-A80460EC334D}.Debug|SP2003.Build.0 = Debug
+		{2E0A38F4-2C18-401D-BB36-A80460EC334D}.Debug|SP50.ActiveCfg = Debug
+		{2E0A38F4-2C18-401D-BB36-A80460EC334D}.Debug|SP50.Build.0 = Debug
+		{2E0A38F4-2C18-401D-BB36-A80460EC334D}.Debug|Win32.ActiveCfg = Debug
+		{2E0A38F4-2C18-401D-BB36-A80460EC334D}.Debug|Win32.Build.0 = Debug
+		{2E0A38F4-2C18-401D-BB36-A80460EC334D}.Release|PPC2003.ActiveCfg = Release
+		{2E0A38F4-2C18-401D-BB36-A80460EC334D}.Release|PPC2003.Build.0 = Release
+		{2E0A38F4-2C18-401D-BB36-A80460EC334D}.Release|PPC50.ActiveCfg = Release
+		{2E0A38F4-2C18-401D-BB36-A80460EC334D}.Release|PPC50.Build.0 = Release
+		{2E0A38F4-2C18-401D-BB36-A80460EC334D}.Release|SP2003.ActiveCfg = Release
+		{2E0A38F4-2C18-401D-BB36-A80460EC334D}.Release|SP2003.Build.0 = Release
+		{2E0A38F4-2C18-401D-BB36-A80460EC334D}.Release|SP50.ActiveCfg = Release
+		{2E0A38F4-2C18-401D-BB36-A80460EC334D}.Release|SP50.Build.0 = Release
+		{2E0A38F4-2C18-401D-BB36-A80460EC334D}.Release|Win32.ActiveCfg = Release
+		{2E0A38F4-2C18-401D-BB36-A80460EC334D}.Release|Win32.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CodeHij", "CodeHij\CodeHij.vcproj", "{EB4CC037-F466-4DCA-A432-0E354167EC16}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HijTest", "HijTest\HijTest.vcproj", "{02707A45-6D79-4B9F-94D8-2F03DF2BD9C1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EB4CC037-F466-4DCA-A432-0E354167EC16} = {EB4CC037-F466-4DCA-A432-0E354167EC16}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Pocket PC 2003 (ARMV4) = Debug|Pocket PC 2003 (ARMV4)
+		Debug|Smartphone 2003 (ARMV4) = Debug|Smartphone 2003 (ARMV4)
+		Release|Pocket PC 2003 (ARMV4) = Release|Pocket PC 2003 (ARMV4)
+		Release|Smartphone 2003 (ARMV4) = Release|Smartphone 2003 (ARMV4)
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB4CC037-F466-4DCA-A432-0E354167EC16}.Debug|Pocket PC 2003 (ARMV4).ActiveCfg = Debug|Pocket PC 2003 (ARMV4)
+		{EB4CC037-F466-4DCA-A432-0E354167EC16}.Debug|Pocket PC 2003 (ARMV4).Build.0 = Debug|Pocket PC 2003 (ARMV4)
+		{EB4CC037-F466-4DCA-A432-0E354167EC16}.Debug|Pocket PC 2003 (ARMV4).Deploy.0 = Debug|Pocket PC 2003 (ARMV4)
+		{EB4CC037-F466-4DCA-A432-0E354167EC16}.Debug|Smartphone 2003 (ARMV4).ActiveCfg = Debug|Smartphone 2003 (ARMV4)
+		{EB4CC037-F466-4DCA-A432-0E354167EC16}.Debug|Smartphone 2003 (ARMV4).Build.0 = Debug|Smartphone 2003 (ARMV4)
+		{EB4CC037-F466-4DCA-A432-0E354167EC16}.Debug|Smartphone 2003 (ARMV4).Deploy.0 = Debug|Smartphone 2003 (ARMV4)
+		{EB4CC037-F466-4DCA-A432-0E354167EC16}.Release|Pocket PC 2003 (ARMV4).ActiveCfg = Release|Pocket PC 2003 (ARMV4)
+		{EB4CC037-F466-4DCA-A432-0E354167EC16}.Release|Pocket PC 2003 (ARMV4).Build.0 = Release|Pocket PC 2003 (ARMV4)
+		{EB4CC037-F466-4DCA-A432-0E354167EC16}.Release|Pocket PC 2003 (ARMV4).Deploy.0 = Release|Pocket PC 2003 (ARMV4)
+		{EB4CC037-F466-4DCA-A432-0E354167EC16}.Release|Smartphone 2003 (ARMV4).ActiveCfg = Release|Smartphone 2003 (ARMV4)
+		{EB4CC037-F466-4DCA-A432-0E354167EC16}.Release|Smartphone 2003 (ARMV4).Build.0 = Release|Smartphone 2003 (ARMV4)
+		{EB4CC037-F466-4DCA-A432-0E354167EC16}.Release|Smartphone 2003 (ARMV4).Deploy.0 = Release|Smartphone 2003 (ARMV4)
+		{02707A45-6D79-4B9F-94D8-2F03DF2BD9C1}.Debug|Pocket PC 2003 (ARMV4).ActiveCfg = Debug|Pocket PC 2003 (ARMV4)
+		{02707A45-6D79-4B9F-94D8-2F03DF2BD9C1}.Debug|Pocket PC 2003 (ARMV4).Build.0 = Debug|Pocket PC 2003 (ARMV4)
+		{02707A45-6D79-4B9F-94D8-2F03DF2BD9C1}.Debug|Pocket PC 2003 (ARMV4).Deploy.0 = Debug|Pocket PC 2003 (ARMV4)
+		{02707A45-6D79-4B9F-94D8-2F03DF2BD9C1}.Debug|Smartphone 2003 (ARMV4).ActiveCfg = Debug|Smartphone 2003 (ARMV4)
+		{02707A45-6D79-4B9F-94D8-2F03DF2BD9C1}.Debug|Smartphone 2003 (ARMV4).Build.0 = Debug|Smartphone 2003 (ARMV4)
+		{02707A45-6D79-4B9F-94D8-2F03DF2BD9C1}.Debug|Smartphone 2003 (ARMV4).Deploy.0 = Debug|Smartphone 2003 (ARMV4)
+		{02707A45-6D79-4B9F-94D8-2F03DF2BD9C1}.Release|Pocket PC 2003 (ARMV4).ActiveCfg = Release|Pocket PC 2003 (ARMV4)
+		{02707A45-6D79-4B9F-94D8-2F03DF2BD9C1}.Release|Pocket PC 2003 (ARMV4).Build.0 = Release|Pocket PC 2003 (ARMV4)
+		{02707A45-6D79-4B9F-94D8-2F03DF2BD9C1}.Release|Pocket PC 2003 (ARMV4).Deploy.0 = Release|Pocket PC 2003 (ARMV4)
+		{02707A45-6D79-4B9F-94D8-2F03DF2BD9C1}.Release|Smartphone 2003 (ARMV4).ActiveCfg = Release|Smartphone 2003 (ARMV4)
+		{02707A45-6D79-4B9F-94D8-2F03DF2BD9C1}.Release|Smartphone 2003 (ARMV4).Build.0 = Release|Smartphone 2003 (ARMV4)
+		{02707A45-6D79-4B9F-94D8-2F03DF2BD9C1}.Release|Smartphone 2003 (ARMV4).Deploy.0 = Release|Smartphone 2003 (ARMV4)
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
